@@ -1,0 +1,131 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+html {
+	box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+	box-sizing: inherit;
+}
+
+
+html,
+body {
+	font-family: 'Raleway', sans-serif;
+    margin: 0 auto;
+    padding: 0;
+    height: 100%;
+    background: url( bg-pattern-top.svg) no-repeat,
+      url(bg-pattern-bottom.svg) no-repeat, hsl(185, 75%, 39%);
+    background-position: right 50vw bottom 50vh, left 50vw top 50vh;
+    
+}
+
+.conatiner {
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+    max-width: 1440px;
+    display: flex;
+    height: 100%;
+  
+}
+
+.card {
+    width: 350px;
+    height: 400px;
+	position: relative;
+}
+
+.card__header {
+	width: 100%;
+	height: 30%;
+	background-image: url("bg-pattern-card.svg");
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+}
+
+.card__image {
+	width: 125px;
+	height: 125px;
+	margin-left: -62.5px;
+	position: absolute;
+	left: 50%;
+	top: 5%;
+}
+
+
+.card__info {
+	width: 100%;
+	height: 60%;
+	background-color: white;
+}
+
+.card__info__section-3 {
+	float: left;
+	display: block;
+	width: 34.11922%;
+	height: 100%;
+	position: relative;
+}
+
+.card__info__section-3:last-child {
+	width: 31.76157%;
+}
+
+.details-bottom {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	border-top: 1px solid#9F9FA0;
+	background-color: white;
+	-webkit-transition: background-color, 0.5s, ease-in-out;
+	-moz-transition: background-color, 0.5s, ease-in-out;
+	transition: background-color, 0.5s, ease-in-out;
+}
+
+.details__number {
+	display: block;
+	text-align: center;
+	font-weight: 900;
+	color: black;
+	margin-top: 20px;
+}
+
+.details__text {
+	display: block;
+	text-align: center;
+	font-size: .8em;
+	margin-bottom: 20px;
+}
+
+.details__text-header {
+	display: block;
+	text-align: center;
+	width: 100%;
+	font-size: 1.2em;
+	padding-top: 80px;
+	position: absolute;
+}
+
+.details__text-subheader {
+	display: block;
+	text-align: center;
+	width: 100%;
+	font-size: .8em;
+	padding-top: 110px;
+	position: absolute;
+}
+
+.img-victor {
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	margin-top: 50px;
+	border: 6px solid #FFF;
+}
+
+.letters-name {
+	color: black;
+}
